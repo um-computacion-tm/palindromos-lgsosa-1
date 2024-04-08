@@ -71,4 +71,5 @@ class TestCantidadDePalabrasPalindromes(unittest.TestCase):
         self.assertEqual(resultado, 6)
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
